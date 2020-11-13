@@ -1,0 +1,40 @@
+:root{ /*boa prática criar variáveis frequentes no root*/
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{ /*zera formatações padrão*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+body{
+    background: var(--preto); /*chamando variável*/
+    font-family: 'Times New Roman', Times;
+    margin: 7px;
+}
+
+header nav a{
+    color: #AAA;
+    margin: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img{
+    width: 10rem;
+    margin-left: 5px;
+}
+
+
